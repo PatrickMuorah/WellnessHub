@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sign Up - Wellness Hub</title>
+  <link rel="stylesheet" href="../css/styles.css" />
+</head>
+<body>
+
+  <!-- ======= Navigation Bar ======= -->
+  <header class="navbar">
+    <div class="container navbar-content">
+      <h1 class="logo">Wellness Hub</h1>
+      <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="health.html">Health</a>
+        <a href="fitness.html">Fitness</a>
+        <a href="diet.html">Diet</a>
+        <a href="discussion.html">Discussion Board</a>
+        <a href="signin.html" class="sign-in-btn">Sign In</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ======= Main Content ======= -->
+  <main class="main-content">
+    <div class="container auth-form-container">
+      <h2>Sign Up</h2>
+      <form id="signupForm">
+        <label for="signupEmail">Email:</label>
+        <input type="email" id="signupEmail" name="email" required>
+
+        <label for="signupUsername">Username:</label>
+        <input type="text" id="signupUsername" name="username" required>
+
+        <label for="signupPassword">Password:</label>
+        <input type="password" id="signupPassword" name="password" required>
+
+        <label>
+          <input type="checkbox" id="newsletter" name="newsletter">
+          Subscribe to newsletter
+        </label>
+
+        <button type="submit">Sign Up</button>
+      </form>
+    </div>
+  </main>
+
+  <script src="../javascript/auth.js"></script>
+</body>
+</html>

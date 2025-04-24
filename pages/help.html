@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wellness Hub</title>
+
+  <link rel="stylesheet" href="../css/styles.css">
+  <script defer src="../javascript/faq.js"></script>
+</head>
+<body>
+
+  <!-- ======= Navigation Bar ======= -->
+  <header class="navbar">
+    <div class="container navbar-content">
+      <h1 class="logo">Wellness Hub</h1>
+      <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="health.html">Health</a>
+        <a href="fitness.html">Fitness</a>
+        <a href="diet.html">Diet</a>
+        <a href="discussion.html">Discussion Board</a>
+        <a href="signin.html" class="sign-in-btn">Sign In</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ======= Page Header Section ======= -->
+  <section class="page-header">
+    <div class="container">
+      <h2 class="page-title">Help</h2>
+      <p class="page-subtitle">Find Answers to Your Questions and Get the Support You Need</p>
+    </div>
+  </section>
+
+  <!-- ======= Main Content Container (White Box) ======= -->
+  <main class="main-content">
+
+    <!-- Featured Sections -->
+    <section class="featured">
+        <div class="card">
+					<img class="responsive-image" src="../images/video-image.jpg" alt="Video Icon">
+					<h3>Getting Started</h3>
+        </div>
+        <div class="card">
+					<img class="responsive-image" src="../images/video-image.jpg" alt="Video Icon">
+          <h3>Exploring the Health Section</h3>
+        </div>
+        <div class="card">
+					<img class="responsive-image" src="../images/video-image.jpg" alt="Video Icon">
+          <h3>Making a Post in Discussion Board</h3>
+        </div>
+        <div class="card">
+					<img class="responsive-image" src="../images/video-image.jpg" alt="Video Icon">
+          <h3>How to Create an Account</h3>
+        </div>
+        
+        <a style="text-decoration: none;" href="#" class="faq-link" id="faqTrigger">
+          <div class="card">
+            <img class="responsive-image" src="../images/faq.jpg" alt="faq Icon">
+            <h3>Frequently Asked Questions</h3>
+            <p>How do I create an account?</p>
+            <p>Can I subscribe to newsletters?</p>
+            <p>.........</p>
+          </div>
+        </a>
+        
+        <!-- FAQ Modal -->
+        <div id="faqModal" class="modal">
+          <div class="modal-content">
+            <span class="close-button">&times;</span>
+            <h2>Frequently Asked Questions</h2>
+            <ul>
+              <li>Q: How do I create an account?<br>A: Click on the "Sign Up" button at the top-right corner.</li>
+              <li>Q: Can I subscribe to newsletters?<br>A: Yes, you can subscribe at the bottom of any page!</li>
+              <li>Q: How do I reset my password?<br>A: Click "Forgot Password" on the login page.</li>
+            </ul>
+          </div>
+        </div>
+        
+        <a style="text-decoration: none;" href="#" id="tipsTrigger" class="faq-link">
+          <div class="card">
+            <img class="responsive-image" src="../images/tips.jpg" alt="pencils and papers">
+            <h3>Quick Tips</h3>
+            <p>"Use the search bar to find specific topics quickly."</p>
+            <p>"Bookmark your favorite pages for easy access."</p>
+          </div>
+        </a>
+        
+        <!-- Tips Modal -->
+        <div id="tipsModal" class="modal">
+          <div class="modal-content">
+            <span class="close-button tips-close">&times;</span>
+            <h2>Quick Tips</h2>
+            <ul>
+              <li>Use the search bar to find specific topics quickly.</li>
+              <li>Bookmark your favorite pages for easy access.</li>
+              <li>Explore content regularly to stay updated.</li>
+              <li>Use sticky notes or online tools to jot down key takeaways.</li>
+              <li>Use the site's navigation menu to quickly jump between sections.</li>
+              <li>Post your thoughts in the Discussion Board to connect with others.</li>
+              <li>Regularly update your password to keep your account secure.</li>
+            </ul>
+          </div>
+        </div>
+        
+    </section>
+  </main>
+
+  <!-- ======= Footer ======= -->
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <h3>SIGN UP FOR OUR NEWSLETTER</h3>
+      <div class="newsletter-form">
+        <input type="email" placeholder="Enter your email address">
+        <button class="subscribe-btn">Subscribe</button>
+      </div>
+	  <p> <a href="contactus.html" style="color: white; font-weight: bold; text-decoration: none;">Click here to contact us!</a></p>
+      <p class="disclaimer">&copy;2025 Health&Wellness LLC. All rights reserved. Health and Wellness does not provide medical advice, diagnosis, or treatment.</p>
+    </div>
+  </footer>
+
+</body>
+</html>

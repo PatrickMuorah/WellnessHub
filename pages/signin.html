@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sign In - Wellness Hub</title>
+  <link rel="stylesheet" href="../css/styles.css" />
+</head>
+<body>
+
+  <!-- ======= Navigation Bar ======= -->
+  <header class="navbar">
+    <div class="container navbar-content">
+      <h1 class="logo">Wellness Hub</h1>
+      <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="health.html">Health</a>
+        <a href="fitness.html">Fitness</a>
+        <a href="diet.html">Diet</a>
+        <a href="discussion.html">Discussion Board</a>
+        <a href="signin.html" class="sign-in-btn">Sign In</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ======= Main Content ======= -->
+  <main class="main-content">
+    <div class="container auth-form-container">
+      <h2>Sign In</h2>
+      <form id="signinForm">
+        <label for="signinUsername">Username:</label>
+        <input type="text" id="signinUsername" name="username" required>
+
+        <label for="signinPassword">Password:</label>
+        <input type="password" id="signinPassword" name="password" required>
+
+        <button type="submit">Sign In</button>
+      </form>
+
+      <p>Don't have an account? <a href="signup.html">Sign up here</a></p>
+    </div>
+  </main>
+
+  <script src="../javascript/auth.js"></script>
+</body>
+</html>
